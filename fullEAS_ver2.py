@@ -1,6 +1,7 @@
 # Display line drawing on I2C driven ssd1306 OLED display 
 from machine import Pin, I2C 
 import time
+import framebuf
 from ssd1306 import SSD1306_I2C
 
 #left rotary encoder (clk=pin2, dt=pin3, sw=pin4)
